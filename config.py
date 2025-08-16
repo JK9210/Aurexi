@@ -48,8 +48,8 @@ STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/STORM_TECHH")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/STORM_CORE")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Apex_Logs")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+o98vyFLV9Mk4OWJl")
 
 if SUPPORT_CHANNEL and not re.match(r"(?:http|https)://", SUPPORT_CHANNEL):
     raise SystemExit("[ERROR] - SUPPORT_CHANNEL url is invalid. Must start with https://")
